@@ -1,0 +1,19 @@
+{
+    "name": "flyandi/mime",
+    "type": "library",
+    "description": "A quick and easy to use MimeType library that actually support descriptions",
+    "keywords": [],
+    "homepage": "https://github.com/flyandi/php-mime",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Andreas Schwarz",
+            "email": "flyandi@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "files": ["src/mime.php"]
+    },
+    "minimum-stability": "dev"
+}
