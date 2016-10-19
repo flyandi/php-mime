@@ -43,6 +43,16 @@ define("MIMETYPE_DATABASE", dirname(__FILE__) . "/mime.json");
 define("MIMETYPE_SEARCH_MIME", "mime");
 define("MIMETYPE_SEARCH_EXTENSION", "extension");
 
+
+/**
+ * [MimeType description]
+ * @param [type] $mime [description]
+ */
+function MimeType($mime) {
+
+    return MimeTypeSearch($mime);
+}
+
 /**
  * [MimeTypeByFilename description]
  * @param [type] $filename [description]
