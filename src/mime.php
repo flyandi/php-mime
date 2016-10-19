@@ -59,6 +59,8 @@ function MimeType($mime) {
  */
 function MimeTypeByFilename($filename) {
 
+    if(!is_file($filename)) return false;
+
     return MimeTypeSearch(mime_content_type($filename));
 }
 
